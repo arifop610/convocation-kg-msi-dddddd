@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVOCATION KG MSI HIGHER KUNDOOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Frame Generator</h2>
+        
+        <div class="controls">
+            <input type="file" id="image-input" accept="image/*">
+            <input type="text" id="name-input" placeholder="Enter Name">
+            <button id="download-btn">Download Image</button>
+             <button id="cropBtn">Crop Image</button>
+        </div>
+
+        <div id="poster-area">
+           
+            <img id="user-image-preview" src="" alt="">
+            
+            <img id="frame-overlay" src="convocation.png" alt="Frame">
+            <div id="display-name"></div>
+        </div>
+    </div>
+
+    <canvas id="main-canvas" style="display:none;"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
