@@ -51,7 +51,7 @@ downloadBtn.addEventListener('click', function() {
     function drawEverything() {
         // 1. ഫോട്ടോ വരയ്ക്കുന്നു (Position & Size ആവശ്യാനുസരണം മാറ്റുക)
         // ctx.drawImage(image, x, y, width, height)
-        ctx.drawImage(userImg, 30, 60, 1080, 1350); 
+        ctx.drawImage(userImg, 30, 80, 1080, 1350); 
         
         // 2. ഫ്രെയിം മുകളിൽ വരയ്ക്കുന്നു
         ctx.drawImage(frameImg, 0, 0, 1080, 1350);
